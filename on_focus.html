@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .c1{
+            background-color: rgb(58, 219, 18);
+            color: blue;
+            font-size: 30px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-style: italic;
+            padding: 15px 200px;
+            margin: auto;
+            margin-top: 30vh;
+            margin-left: 15%;
+            box-shadow: 10px 0px 10px 8px rgb(0, 0, 0);
+           
+        }
+        .c2{
+            background-color: rgb(255, 60, 0);
+            color: rgb(0, 0, 0);
+            font-size: 30px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-style: italic;
+            padding: 15px 200px;
+            margin: auto;
+            margin-top: 30vh;
+            margin-left: 15%;
+            box-shadow: 10px 0px 15px 13px rgb(6, 6, 8);
+        }
+    </style>
+    <script>
+        function fun(el)
+        {
+            el.className="c1"
+        }
+        function fun1(el)
+        {
+            el.className="c2"
+        }
+    </script>
+</head>
+<body>
+    <form>
+        <input type="text" value="Mahendra kumar verma" placeholder="enter your name" onfocus="fun(this)" onblur="fun1(this)"/>
+    </form>
+
+</body>
+</html>
